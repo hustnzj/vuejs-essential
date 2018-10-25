@@ -1,7 +1,7 @@
-<template>
+<template lang="pug">
   <div id="app">
     <img src="./assets/logo.png">
-    <h1>Welcome to hustnzj.com</h1>
+    h1 Welcome from pug & sass
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -19,5 +19,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  h1{
+    color:#42b983;
+  }
 }
 </style>
